@@ -40,6 +40,10 @@ main{
     padding-top: 80px;
 }
 
+.text{
+    position: absolute;
+    bottom: -45px;
+}
 section{
     width: 80%;
     margin-inline: auto;
@@ -54,7 +58,7 @@ section{
     width: 200px;
     height: 300px;
     position: relative;
-
+   
 }
 
 .card-container .cuore{
@@ -68,31 +72,81 @@ section{
     
 }
 
-.card-container .red-box{
+/* .card-container .red-box{
     display: inline-block;
     color: white;
     background-color: red;
-    padding: 2px;
+    padding: 3px;
+
+    position: absolute;
+    bottom: 20px;
+} */
+
+.card-container .boxes{
+    display: inline-block;
+    
+
+    display: flex;
+    gap: 10px;
 
     position: absolute;
     bottom: 20px;
 }
 
+.card-container .boxes .red-box{
+    background-color: red;
+    color: white;
+    padding: 3px;
+}
 
-.card-container .green-box{
+
+.card-container .boxes .green-box{
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+
+
+/* .card-container .green-box{
     display: inline-block;
     color: white;
     background-color: green;
-    padding: 2px;
+    padding: 3px;
 
     position: absolute;
     bottom: 20px;
     left: 45px;
-}
+} */
+
+
 
 .back-foto{
-    background-image: url(../img/1.webp);
+    /* background-image: url(../img/1.webp); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#foto-1{
+    background-image: url(../img/1.webp);
+}
+
+#foto-2{
+    background-image: url(../img/2.webp);
+}
+
+#foto-3{
+    background-image: url(../img/3.webp);
+}
+
+#foto-4{
+    background-image: url(../img/4.webp);
+}
+
+#foto-5{
+    background-image: url(../img/5.webp);
+}
+
+#foto-6{
+    background-image: url(../img/6.webp);
 }
