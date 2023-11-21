@@ -17,6 +17,7 @@ header{
 header ul{
     display: flex;
     gap: 5%;
+    color: white;
 }
 
 header ul li{
@@ -25,4 +26,55 @@ header ul li{
 
 header img{
     width:15% ;
+}
+
+header div i{
+    color: white;
+}
+
+main{
+   
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+section{
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.card-container{
+    background-color: red;
+    width: 200px;
+    height: 300px;
+    position: relative;
+}
+
+.card-container .cuore{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    
+}
+
+.card-container .red-box{
+    
+}
+
+
+.back-foto{
+    background-image: url(../img/1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
