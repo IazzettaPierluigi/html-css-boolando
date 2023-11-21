@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+header{
+    background-color: #ff6900;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+
+header ul{
+    display: flex;
+    gap: 5%;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header img{
+    width:15% ;
+}
